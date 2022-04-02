@@ -17,10 +17,14 @@ export default class Navbar extends Component {
                                 <li className="nav-item">
                                     <a className="nav-link active" aria-current="page" href="/">Home</a>
                                 </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" href="/">About</a>
-                                </li>
-
+                                {/* <li className="nav-item"><a className="nav-link" href="/">About</a></li> */}
+                                <li className="nav-item"><a className="nav-link" href="/">General</a></li>
+                                <li className="nav-item"><a className="nav-link" href="/business">Business</a></li>
+                                <li className="nav-item"><a className="nav-link" href="/entertainment">Entertainment</a></li>
+                                <li className="nav-item"><a className="nav-link" href="/health">Health</a></li>
+                                <li className="nav-item"><a className="nav-link" href="/science">Science</a></li>
+                                <li className="nav-item"><a className="nav-link" href="/sports">Sports</a></li>
+                                <li className="nav-item"><a className="nav-link" href="/technology">Technology</a></li>
 
                             </ul>
 
@@ -31,3 +35,11 @@ export default class Navbar extends Component {
         )
     }
 }
+
+// general
+// business
+// entertainment
+// health
+// science
+// sports
+// technology
