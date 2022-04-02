@@ -39,13 +39,8 @@ export default class News extends Component {
                     articles:parsedData.articles,
                     page: this.state.page + 1
                })
-          }
-
-
-         
+          }     
      }
-
-
      async componentDidMount(){
           console.log("component did")
           let url = "https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=61e73f1910264bf8974228d10699c0cd&page=1&pageSize=10"
