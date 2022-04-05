@@ -76,12 +76,12 @@ export default class News extends Component {
                <>
 
                     <div className="container my-3">
-                         <h1>NewsAllOver Headings</h1>
+                         <h1 className='text-center'>NewsAllOver Top News</h1>
                          <div className="row" >
                               {this.state.articles.map((element) => {
                                    return <div className="col-md-4" key={element.url}>
 
-                                        <Newsitems title={element.title?element.title:" "} description={element.description ? element.description : " "} imageUrl={element.urlToImage? element.urlToImage: "https://c.ndtvimg.com/2022-03/h5j8h27s_russia-ukraine-fire_625x300_16_March_22.jpg"} newsUrl={element.url}
+                                        <Newsitems title={element.title?element.title:" "} description={element.description ? element.description : " "} imageUrl={element.urlToImage? element.urlToImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg"} newsUrl={element.url}
                                         />
                                    </div>
                               })}
